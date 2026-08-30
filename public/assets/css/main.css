@@ -663,10 +663,6 @@ button {
 
 @media (max-width: 480px) {
 
-    .brand-name span {
-        display: none;
-    }
-
     .hero-side {
         padding-left: 0;
     }
@@ -3182,4 +3178,80 @@ button {
 
 .language-switcher span {
     opacity: 0.25;
+}
+/* =========================================================
+   MOBILE MENU
+   ========================================================= */
+
+@media (max-width: 760px) {
+
+    .site-header.menu-open {
+        background: var(--gt-ivory);
+    }
+
+    .site-header.menu-open .nav-container {
+        position: relative;
+    }
+
+    .site-header.menu-open .main-nav {
+        position: absolute;
+        top: 82px;
+        left: calc(var(--page-padding) * -1);
+        width: calc(100% + (var(--page-padding) * 2));
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+
+        padding: 32px var(--page-padding) 20px;
+
+        background: var(--gt-ivory);
+        border-top: 1px solid rgba(24, 18, 22, 0.12);
+    }
+
+    .site-header.menu-open .main-nav a {
+        width: 100%;
+        padding: 18px 0;
+
+        border-bottom: 1px solid rgba(24, 18, 22, 0.10);
+
+        font-size: 18px;
+    }
+
+    .site-header.menu-open .nav-actions {
+        position: absolute;
+        top: calc(82px + 215px);
+        left: calc(var(--page-padding) * -1);
+        width: calc(100% + (var(--page-padding) * 2));
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 22px var(--page-padding) 28px;
+
+        background: var(--gt-ivory);
+    }
+
+    .mobile-menu-toggle {
+        position: relative;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    .mobile-menu-toggle span {
+        transition:
+            transform 220ms ease,
+            opacity 220ms ease;
+    }
+
+    .site-header.menu-open .mobile-menu-toggle span:first-child {
+        transform: translateY(3.5px) rotate(45deg);
+    }
+
+    .site-header.menu-open .mobile-menu-toggle span:last-child {
+        transform: translateY(-3.5px) rotate(-45deg);
+    }
+
 }
