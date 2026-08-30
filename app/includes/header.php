@@ -25,7 +25,7 @@
         rel="stylesheet"
     >
 
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css?v=<?= filemtime(__DIR__ . '/../../public/assets/css/main.css') ?>">
 
 </head>
 
