@@ -127,12 +127,70 @@ return [
     ],
 
     'media' => [
-        'eyebrow' => 'Media',
-        'title_before' => 'They tell',
-        'title_emphasis' => 'our story.',
-        'intro' => 'Discover a selection of articles, interviews and publications about Gastronomia Tech and its products.',
-        'placeholder' => 'Media articles and logos will be connected from /public/images/media.',
+    'eyebrow' => 'Media',
+    'title_before' => 'They talk',
+    'title_emphasis' => 'about our journey.',
+    'intro' => 'Discover a selection of articles, interviews and publications about Gastronomia Tech and its products.',
+
+    'items' => [
+        [
+            'media' => 'Canal Alpha',
+            'date' => '25.02.2026',
+            'title' => 'GastronomIA puts technology at the service of a better structured gastronomy industry.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'GastroJournal',
+            'date' => '09.09.2025',
+            'title' => 'Digitising recipes, planning and operations to reduce the workload for teams.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'RTN',
+            'date' => '04.09.2025',
+            'title' => 'A Neuchâtel-based application designed to reduce the mental workload of chefs.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'GastroJournal',
+            'date' => '21.08.2025',
+            'title' => 'An all-in-one application to digitise and centralise kitchen operations.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'Bilan Magazine',
+            'date' => '17.12.2024',
+            'title' => 'New players are contributing to the transformation of the Swiss restaurant industry.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'GastroNeuchâtel',
+            'date' => '17.12.2024',
+            'title' => 'Innovation, training and gastronomy in Neuchâtel.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'Neuchâtel Economie',
+            'date' => '20.11.2024',
+            'title' => 'GastronomIA, the Neuchâtel start-up rethinking restaurant management.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'Kanal9',
+            'date' => '18.11.2024',
+            'title' => 'Gastronomy and digital innovation brought together at the Careho trade fair.',
+            'logo' => null,
+            'url' => '#',
+        ],
     ],
+],
 
     'vision' => [
         'eyebrow' => 'Our vision',

@@ -127,12 +127,70 @@ return [
     ],
 
     'media' => [
-        'eyebrow' => 'Media',
-        'title_before' => 'Raccontano',
-        'title_emphasis' => 'il nostro percorso.',
-        'intro' => 'Una selezione di articoli, interviste e pubblicazioni dedicate a Gastronomia Tech e ai suoi prodotti.',
-        'placeholder' => 'Gli articoli e i loghi media saranno collegati da /public/images/media.',
+    'eyebrow' => 'Media',
+    'title_before' => 'Parlano',
+    'title_emphasis' => 'del nostro percorso.',
+    'intro' => 'Scopri una selezione di articoli, interviste e pubblicazioni dedicate a Gastronomia Tech e ai suoi prodotti.',
+
+    'items' => [
+        [
+            'media' => 'Canal Alpha',
+            'date' => '25.02.2026',
+            'title' => 'GastronomIA mette la tecnologia al servizio di una gastronomia meglio strutturata.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'GastroJournal',
+            'date' => '09.09.2025',
+            'title' => 'Digitalizzare ricette, pianificazione e operazioni per alleggerire il carico di lavoro dei team.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'RTN',
+            'date' => '04.09.2025',
+            'title' => 'Un’applicazione neocastellana progettata per ridurre il carico mentale degli chef.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'GastroJournal',
+            'date' => '21.08.2025',
+            'title' => 'Un’applicazione all-in-one per digitalizzare e centralizzare le operazioni in cucina.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'Bilan Magazine',
+            'date' => '17.12.2024',
+            'title' => 'Nuovi attori contribuiscono alla trasformazione del settore della ristorazione svizzera.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'GastroNeuchâtel',
+            'date' => '17.12.2024',
+            'title' => 'Innovazione, formazione e gastronomia neocastellana.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'Neuchâtel Economie',
+            'date' => '20.11.2024',
+            'title' => 'GastronomIA, la start-up neocastellana che ripensa la gestione dei ristoranti.',
+            'logo' => null,
+            'url' => '#',
+        ],
+        [
+            'media' => 'Kanal9',
+            'date' => '18.11.2024',
+            'title' => 'Gastronomia e innovazione digitale riunite al salone Careho.',
+            'logo' => null,
+            'url' => '#',
+        ],
     ],
+],
 
     'vision' => [
         'eyebrow' => 'La nostra visione',
