@@ -39,9 +39,68 @@
     </a>
 
     {{-- DESCRIPTION --}}
-    <p class="mt-5 max-w-[300px] text-sm leading-6 text-[#181216]/50">
-        {{ __('common.footer.description') }}
-    </p>
+<p class="mt-5 max-w-[300px] text-sm leading-6 text-[#181216]/50">
+    {{ __('common.footer.description') }}
+</p>
+
+{{-- SOCIALS --}}
+<div class="mt-6 flex items-center gap-4">
+
+    {{-- LINKEDIN --}}
+    <a
+        href="https://www.linkedin.com/company/gastronomia-ai"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+        class="text-[#181216]/35 transition hover:text-[#64283A]"
+    >
+        <svg
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="h-5 w-5"
+            aria-hidden="true"
+        >
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452z"/>
+        </svg>
+    </a>
+
+    {{-- INSTAGRAM --}}
+    <a
+        href="https://instagram.com/gastronomia.tech"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+        class="text-[#181216]/35 transition hover:text-[#64283A]"
+    >
+        <svg
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="h-5 w-5"
+            aria-hidden="true"
+        >
+            <path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5Zm8.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/>
+        </svg>
+    </a>
+
+    {{-- YOUTUBE --}}
+    <a
+        href="https://www.youtube.com/@GastronomIAai"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="YouTube"
+        class="text-[#181216]/35 transition hover:text-[#64283A]"
+    >
+        <svg
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="h-5 w-5"
+            aria-hidden="true"
+        >
+            <path d="M23.5 6.2a3.02 3.02 0 0 0-2.13-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.37.51A3.02 3.02 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3.02 3.02 0 0 0 2.13 2.14c1.87.51 9.37.51 9.37.51s7.5 0 9.37-.51a3.02 3.02 0 0 0 2.13-2.14A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.24 3.6-6.24 3.6Z"/>
+        </svg>
+    </a>
+
+</div>
 </div>
 
 
